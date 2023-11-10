@@ -12,3 +12,44 @@
 html {
   overflow-x: hidden;
 }
+
+/* variable */
+:root {
+  --primary-color: #54bd95;
+}
+
+/* header section */
+.header-btn {
+  padding: 7px 13px !important;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 10px !important;
+  background: var(--primary-color) !important;
+  color: #fff;
+  transition: .5s;
+}
+
+.header-btn:hover {
+  background: #fff !important;
+  color: #333;
+  border: 1px solid var(--primary-color);
+}
+
+/* reusable css */
+.sec-title {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+/* responsive css */
+@media (min-width: 769px) {
+  .sidebar {
+    background: #f9f8fe;
+    backdrop-filter: blur(10px);
+  }
+}
