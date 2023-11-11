@@ -43,6 +43,12 @@ header.header-sec {
   border: 1px solid var(--primary-color);
 }
 
+/* company section */
+.company-title {
+  font-size: 40px !important;
+  font-weight: 700 !important;
+}
+
 /* footer section */
 footer {
   background: #161c28;
@@ -120,6 +126,10 @@ footer {
   .hero-bar {
     width: 100%;
   }
+
+  .company-title {
+    font-size: 32px !important;
+  }
 }
 
 @media (max-width: 426px) {
@@ -129,5 +139,9 @@ footer {
 
   .primary-btn {
     padding: 12px 18px;
+  }
+
+  .company-title {
+    font-size: 24px !important;
   }
 }
