@@ -66,6 +66,31 @@ section.support-sec {
   box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
 }
 
+/* benefit-section */
+.grp111 {
+  position: absolute;
+  top: 36px;
+  left: -130px;
+}
+
+.grp60 {
+  position: absolute;
+  top: 121px;
+  right: 108px;
+}
+
+.grp113 {
+  position: absolute;
+  top: 272px;
+  left: -66px;
+}
+
+.grp114 {
+  position: absolute;
+  bottom: -29px;
+  left: -114px;
+}
+
 /* footer section */
 footer {
   background: #161c28;
@@ -159,6 +184,13 @@ footer {
   .s-cntnt p {
     width: 75%;
   }
+  .feature-title {
+    width: 85%;
+  }
+
+  .benefit-title {
+    width: 75%;
+  }
 }
 
 @media (max-width: 769px) {
@@ -195,5 +227,9 @@ footer {
 
   .review {
     margin-bottom: 3rem ;
+  }
+
+  .grp111, .grp113, .grp114 {
+    display: none;
   }
 }
