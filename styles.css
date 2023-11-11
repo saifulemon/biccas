@@ -49,6 +49,23 @@ header.header-sec {
   font-weight: 700 !important;
 }
 
+/* support section */
+section.support-sec {
+  background: #f9f8fe;
+  padding-block: 3.5rem;
+}
+
+.s-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 60px;
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+}
+
 /* footer section */
 footer {
   background: #161c28;
@@ -87,6 +104,24 @@ footer {
   line-height: normal;
 }
 
+.subtitle {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.subtitle-s {
+  color: #191a15;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .primary-btn {
   display: inline-flex;
   padding: 20px 30px;
@@ -120,6 +155,10 @@ footer {
   .heroimg {
     width: 100%;
   }
+
+  .s-cntnt p {
+    width: 75%;
+  }
 }
 
 @media (max-width: 769px) {
@@ -127,9 +166,14 @@ footer {
     width: 100%;
   }
 
-  .company-title {
+  .company-title, .sec-title {
     font-size: 32px !important;
   }
+
+  .subtitle-s {
+    font-size: 22px;
+  }
+
 }
 
 @media (max-width: 426px) {
@@ -141,7 +185,15 @@ footer {
     padding: 12px 18px;
   }
 
-  .company-title {
-    font-size: 24px !important;
+  .company-title, .sec-title {
+    font-size: 26px !important;
+  }
+
+  .subtitle-s {
+    font-size: 20px;
+  }
+
+  .review {
+    margin-bottom: 3rem ;
   }
 }
