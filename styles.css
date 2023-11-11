@@ -91,6 +91,60 @@ section.support-sec {
   left: -114px;
 }
 
+/* plan section */
+.plan-sec {
+  background: url("assets/images/elips.png") no-repeat center right;
+  display: block;
+}
+
+.plan-btn {
+  background-color: #fff;
+  padding: 9px 9px;
+  border-radius: 10px;
+}
+
+.btn-monthly,
+.btn-yearly {
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  padding: 9px 32px;
+  border-radius: 10px;
+  transition: .6s;
+}
+
+.btn-yearly {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.btn-yearly:hover {
+  background: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.btn-plan {
+  padding-inline: 60px;
+}
+
+.services {
+  padding: 16px 0px 16px 63px;
+  border-radius: 10px;
+}
+
+.ser1 {
+  border-radius: 10px;
+  background: #f9fafb;
+}
+
+.second-card {
+  background: url("assets/images/second-card.png") no-repeat center center;
+  width: 100%;
+  padding-inline: 12px;
+  border-radius: 30px !important;
+}
+
 /* footer section */
 footer {
   background: #161c28;
@@ -191,6 +245,11 @@ footer {
   .benefit-title {
     width: 75%;
   }
+
+  .plan-txt {
+    width: 75%;
+    margin-inline: auto;
+  }
 }
 
 @media (max-width: 769px) {
@@ -198,14 +257,14 @@ footer {
     width: 100%;
   }
 
-  .company-title, .sec-title {
+  .company-title,
+  .sec-title {
     font-size: 32px !important;
   }
 
   .subtitle-s {
     font-size: 22px;
   }
-
 }
 
 @media (max-width: 426px) {
@@ -217,7 +276,8 @@ footer {
     padding: 12px 18px;
   }
 
-  .company-title, .sec-title {
+  .company-title,
+  .sec-title {
     font-size: 26px !important;
   }
 
@@ -226,10 +286,12 @@ footer {
   }
 
   .review {
-    margin-bottom: 3rem ;
+    margin-bottom: 3rem;
   }
 
-  .grp111, .grp113, .grp114 {
+  .grp111,
+  .grp113,
+  .grp114 {
     display: none;
   }
 }
