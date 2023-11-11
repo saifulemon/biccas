@@ -110,6 +110,10 @@ footer {
   .hero-p {
     width: 75%;
   }
+
+  .heroimg {
+    width: 100%;
+  }
 }
 
 @media (max-width: 769px) {
